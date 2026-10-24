@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
     - name: Check formatting of Rust code with rustfmt
       uses: actions-rust-lang/rustfmt@v1.1.2
     - name: Run tests
